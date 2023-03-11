@@ -167,4 +167,4 @@ Result: b'3860b826dfc02feed1bbeb908eb0b2c0f5ea32a1b12ef1e8d87d2bf0e3802795'
 Mini-cryptography development takes place on [Github](https://github.com/antanasbendoraitis/mini-cryptography.git): https://github.com/antanasbendoraitis/mini-cryptography.git</br>
 Please submit bugs that you encounter to the issue tracker with a reproducible example demonstrating the problem.
 ### License
-MIT
+[MIT](https://github.com/antanasbendoraitis/mini-cryptography/blob/master/LICENSE)
