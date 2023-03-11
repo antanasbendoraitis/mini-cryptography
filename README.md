@@ -119,7 +119,7 @@ Result: 11000
 ```
 Sign message
 ``` Python
-message = '“Scientia, ingenium, virtus!” (“Science, creativity, virtue!”) '
+message = 'Religio, Doctrina, Civilitas, prae omnibus Virtus'
 hash = int(hashlib.sha1(message.encode()).hexdigest(),base=16)
 
 r, s = curve.sign_message(privateKey, k, hash=hash)
