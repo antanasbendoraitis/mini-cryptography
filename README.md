@@ -1,4 +1,3 @@
-## Project description
 ![mini-cryptography](https://github.com/antanasbendoraitis/mini-cryptography/blob/master/images/mini-cryptography.png?raw=true)
 ## mini-cryptography: mini ECDSA cryptography and Mekle tree root calculation
 Mini-cryptography is a package that has ECDSA arithmetic operations, including signature formation and verification. It also has a merkle tree root calculation based on the SHA-256 hash algorithm.

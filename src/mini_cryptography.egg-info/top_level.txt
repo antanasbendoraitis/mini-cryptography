@@ -1,1 +1,1 @@
-mini-cryptography
+mini_cryptography
