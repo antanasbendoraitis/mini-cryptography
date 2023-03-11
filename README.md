@@ -1,5 +1,5 @@
 ## Project description
-![mini-cryptography](./images/min-cryptography.png)
+![mini-cryptography](./images/mini-cryptography.png)
 ## mini-cryptography: mini ECDSA cryptography and Mekle tree root calculation
 Mini-cryptography is a package that has ECDSA arithmetic operations, including signature formation and verification. It also has a merkle tree root calculation based on the SHA-256 hash algorithm.
 ## Content
@@ -8,10 +8,10 @@ Mini-cryptography is a package that has ECDSA arithmetic operations, including s
 &emsp;&emsp;&emsp;φ&nbsp;&nbsp;[Uninstallation](#uninstallation)</br>
 &emsp;&emsp;&emsp;φ&nbsp;&nbsp;[User guide](#user-guide)</br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;φ&nbsp;&nbsp;[ECDSA](#ecdsa)</br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;φ&nbsp;&nbsp;[Data for ECDSA examples](#data-for-merkle-examples)</br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;φ&nbsp;&nbsp;[ECDSA examples](#merkle-examples)</br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;φ&nbsp;&nbsp;[Data for ECDSA examples](#data-for-ecdsa-examples)</br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;φ&nbsp;&nbsp;[ECDSA examples](#ecdsa-examples)</br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;φ&nbsp;&nbsp;[Merkle](#merkle)</br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;φ&nbsp;&nbsp;[Data for Merkle examples](#data-for-ecdsa-examples)</br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;φ&nbsp;&nbsp;[Data for Merkle examples](#data-for-merkle-examples)</br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;φ&nbsp;&nbsp;[Merkle examples](#merkle-examples)</br>
 &emsp;&emsp;&emsp;φ&nbsp;&nbsp;[Development](#development)</br>
 &emsp;&emsp;&emsp;φ&nbsp;&nbsp;[License](#license)</br>
@@ -151,7 +151,7 @@ hashList = [
 ##### Merkle examples
 Merkle root calculation from transactions
 ``` Python
-merkle.Merkle().merkle_root(hashList, 0) #if 0 hashed transactions else 1 not hashed
+merkle.Merkle().merkle_root(hashList, 0) #if 0 transactions are hashed, then 1 transactions are not hashed. 
 ```
 ``` Python
 Result: 'f3b5457f44b0a28a11ced653941ae1f2632b219f5d366a4167945eff0ed068a1'
